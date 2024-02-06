@@ -1,6 +1,21 @@
 * {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     padding: 0;
     margin: 0;
+}
+
+h1 {
+    font-size: max(6vw, 40px);
+    color: rgb(57,136,255);
+}
+
+h2 {
+    font-size: max(3.4vw, 20px);
+}
+
+p {
+    font-size: max(1.5vw, 16px);
 }
 
 nav {
@@ -24,34 +39,40 @@ li {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 24px;
+    padding: 24px 26px;
     text-decoration: none;
 }
 
 .nav-options a:hover {
     color: black;
     background-color: white;
-    padding: 6px 20px;
-    margin: 8px 4px;
+    padding: 10px 20px;
+    margin: 14px 6px;
     border-radius: 50px;
 }
 
 .content {
-    padding-top: 60px;
+    padding-top: 100px;
     background-color: #1c1c1c;
     color: white;
 }
 
+#home, 
+#about,
+#projects {
+    width: 70%;
+    margin: 100px auto;
+}
+
 #home {
-    margin: 50px;
+
+    border: 1px red;
 }
 
 #about {
-    margin: 50px;
 }
 
 #projects {
-    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     
