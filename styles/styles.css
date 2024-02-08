@@ -23,6 +23,7 @@ nav {
     background-color: #282828;
     top: 0px;
     width: 100%;
+    line-height: 1;
     box-shadow: 0 2px 4px #1a1a1a;
 }
 
@@ -52,7 +53,6 @@ li {
 }
 
 .content {
-    padding-top: 100px;
     background-color: #1c1c1c;
     color: white;
 }
@@ -61,12 +61,14 @@ li {
 #about,
 #projects {
     width: 70%;
-    margin: 100px auto;
+    height: 100vh;
+    margin: 0 auto 0;
+    padding-top: 100px;
 }
 
 #home {
-
-    border: 1px red;
+    padding: 50vh 0 0 0;
+    height: 50vh;
 }
 
 #about {
