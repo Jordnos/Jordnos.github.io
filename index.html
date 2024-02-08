@@ -5,52 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan So</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <ul class="nav-options">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <div id="home">
-            <h2>Hi my name is </h2>
-            <h1>Jordan So</h1>
-            <h2>I am a Software Developer. </h2>
-        </div>
-        <div id="about">
-            <h2>ABOUT ME</h2>
-            <p>I'm Jordan, welcome to my website! I'm a 3rd year student at UBC studying Computer Science. </p>
-        </div>
-        <div id="projects">
-            <div class="project">
-                <h1 class="project-title">Title</h1>
-                <ul class="project-technologies">
-                    <li>Typescript</li>
-                    <li>ExpressJS</li>
-                </ul>
-                <p>description...</p>
-                <ul class="project-links">
-                    <li><a href="">github</a></li>
-                    <li><a href="">demo</a></li>
-                </ul>
-            </div>
-            <div class="project">
-                <h1 class="project-title">Title</h1>
-                <ul class="project-technologies">
-                    <li>Typescript</li>
-                    <li>ExpressJS</li>
-                </ul>
-                <p>description...</p>
-                <ul class="project-links">
-                    <li><a href="">github</a></li>
-                    <li><a href="">demo</a></li>
-                </ul>
-            </div>
-        </div>
+  <nav>
+    <ul class="nav-options">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <div id="home">
+      <h2>Hi my name is </h2>
+      <h1>Jordan So</h1>
+      <h2>I am a Software Developer. </h2>
     </div>
-    <div class="footer">github</div>
+    <div id="about">
+      <h2>ABOUT ME</h2>
+      <p>
+        I'm Jordan, welcome to my website! I'm a 3rd year student at UBC studying Computer Science. 
+        This is the first iteration of my website. 
+        <br>
+        <br>
+        Some hobbies of mine are ...
+      </p>
+    </div>
+    <div id="projects">
+      <div class="project">
+        <button class="project-expand-button">
+          <img src="" alt="">
+          <div class="project-expand-button-text">
+            <h2>Title</h1>
+            <h3>Mini Description</h2>
+          </div>
+          </button>
+        <div class="project-expandable">
+          <p>description...</p>
+          <ul class="project-technologies">
+            <li>Typescript</li>
+            <li>ExpressJS</li>
+          </ul>
+          <ul class="project-links">
+            <li><a href="">github</a></li>
+            <li><a href="">demo</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">github</div>
 </body>
 </html>

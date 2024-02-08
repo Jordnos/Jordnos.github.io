@@ -75,9 +75,6 @@ li {
 }
 
 #projects {
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 
 .project {
@@ -105,4 +102,10 @@ li {
 
 .project-links a {
     text-decoration: none;
+}
+
+.project-expandable {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
 }
