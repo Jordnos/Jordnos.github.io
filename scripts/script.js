@@ -7,7 +7,6 @@ function addButtonListeners() {
             } else {
                 expandable.style.maxHeight = expandable.scrollHeight + 'px';
             }
-            console.log(button, expandable);
         })
         
     });

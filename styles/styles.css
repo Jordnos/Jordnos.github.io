@@ -80,7 +80,8 @@ li {
 .project {
     display: flex;
     flex-direction: column;
-    background-color: #282828;
+    background-color: #1c1c1c;
+    color: white;
     padding: 8px;
 }
 
@@ -102,6 +103,14 @@ li {
 
 .project-links a {
     text-decoration: none;
+}
+
+.project-expand-button {
+    border: none;
+    border-top: 3px solid #282828;
+    background-color: inherit;
+    color: inherit;
+    text-align: left;
 }
 
 .project-expandable {
