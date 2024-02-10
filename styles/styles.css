@@ -5,15 +5,17 @@
     font-size: 22px;
     padding: 0;
     margin: 0;
+    font-weight: 200;
 }
 
 h1 {
-    font-size: max(6vw, 40px);
+    font-size: max(5vw, 40px);
+    font-weight: 400;
     color: #61c9a8;
 }
 
 h2 {
-    font-size: max(3.4vw, 20px);
+    font-size: max(3vw, 20px);
 }
 
 p {
@@ -27,19 +29,27 @@ nav {
     width: 100%;
     line-height: 1;
     box-shadow: 0 2px 4px #1a1a1a;
+    font-size: 22px;
     font-weight: 200;
+    color: white;
+}
+
+.nav-logo {
+    float: left;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 24px 26px 24px 52px;
 }
 
 .nav-options {
     list-style: none;
     overflow: hidden;
-    padding: 0 26px;
+    padding-right: 26px;
 }
 
 .nav-options a {
     display: block;
-    color: white;
-    text-align: center;
+    color: inherit;
     padding: 24px 26px;
     text-decoration: none;
     float: right;
@@ -56,19 +66,35 @@ nav {
 .content {
     background-color: #1A202C;
     color: white;
+    min-height: 100vh;
 }
 
 #home, 
 #about,
 #projects {
     width: 60%;
-    height: 100vh;
-    margin: 0 auto 0;
+    margin: 0 auto 100px;
     padding-top: 100px;
 }
 
 #home {
-    padding-top: 30vh;
+}
+
+#home .image-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 6px solid #61c9a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto 100px;
+}
+
+#home img {
+    width: 115%;
+    height: 115%
 }
 
 #about {
