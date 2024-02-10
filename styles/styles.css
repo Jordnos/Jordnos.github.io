@@ -1,8 +1,8 @@
 /* COLOR PALETTE: https://coolors.co/12161f-1a202c-61c9a8-ffed66 */
 
 * {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
     padding: 0;
     margin: 0;
 }
@@ -27,16 +27,13 @@ nav {
     width: 100%;
     line-height: 1;
     box-shadow: 0 2px 4px #1a1a1a;
-    font-weight: bold;
+    font-weight: 200;
 }
 
 .nav-options {
     list-style: none;
     overflow: hidden;
-}
-
-li {
-    float: left;
+    padding: 0 26px;
 }
 
 .nav-options a {
@@ -45,6 +42,7 @@ li {
     text-align: center;
     padding: 24px 26px;
     text-decoration: none;
+    float: right;
 }
 
 .nav-options a:hover {
@@ -63,15 +61,14 @@ li {
 #home, 
 #about,
 #projects {
-    width: 70%;
+    width: 60%;
     height: 100vh;
     margin: 0 auto 0;
     padding-top: 100px;
 }
 
 #home {
-    padding: 50vh 0 0 0;
-    height: 50vh;
+    padding-top: 30vh;
 }
 
 #about {
@@ -86,27 +83,6 @@ li {
     background-color: inherit;
     color: inherit;
     padding: 8px;
-}
-
-.project-technologies,
-.project-links {
-    display: flex;
-    gap: 8px;
-}
-
-.project-technologies li, 
-.project-links li {
-    list-style: none;
-    border: none;
-    background-color: #61c9a8;
-    color: black;
-    border-radius: 50px;
-    padding: 2px 16px;
-}
-
-.project-links a {
-    color: black;
-    text-decoration: none;
 }
 
 .project-expand-button {
@@ -140,4 +116,23 @@ li {
     padding-left: 18px;
 }
 
+.project-technologies,
+.project-links {
+    display: flex;
+    gap: 8px;
+}
 
+.project-technologies li, 
+.project-links li {
+    list-style: none;
+    border: none;
+    background-color: #61c9a8;
+    color: black;
+    border-radius: 50px;
+    padding: 2px 16px;
+}
+
+.project-links a {
+    color: black;
+    text-decoration: none;
+}
