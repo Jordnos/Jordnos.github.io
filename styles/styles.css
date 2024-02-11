@@ -44,6 +44,8 @@ nav {
     box-shadow: 0 2px 4px #1a1a1a;
     font-weight: 200;
     color: white;
+    overflow: hidden;
+    z-index: 100;
 }
 
 .nav-logo {
@@ -54,7 +56,6 @@ nav {
 }
 
 .nav-options {
-    overflow: hidden;
     padding-right: 26px;
     float: right;
 }
