@@ -56,13 +56,17 @@ nav {
 .nav-options {
     overflow: hidden;
     padding-right: 26px;
+    float: right;
+}
+
+.nav-options li {
+    display: inline-block;   
 }
 
 .nav-options a {
     display: block;
     color: inherit;
     padding: 24px 26px;
-    float: right;
 }
 
 .nav-options a:hover {
