@@ -73,21 +73,18 @@ nav {
     border-radius: 50px;
 }
 
-.content {
+.content,
+.footer {
     background-color: #1A202C;
     color: white;
-    min-height: 100vh;
 }
 
 #home, 
 #about,
 #projects {
     width: 60%;
-    margin: 0 auto 100px;
-    padding-top: 100px;
-}
-
-#home {
+    margin: auto;
+    padding: 100px 0;
 }
 
 #home .image-container {
@@ -105,12 +102,6 @@ nav {
 #home img {
     width: 115%;
     height: 115%
-}
-
-#about {
-}
-
-#projects {
 }
 
 .project {
