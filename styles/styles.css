@@ -10,7 +10,7 @@
 
 h1 {
     font-size: max(5vw, 40px);
-    font-weight: 400;
+    font-weight: 600;
     color: #61c9a8;
 }
 
@@ -22,9 +22,17 @@ p {
     font-size: max(1.5vw, 20px);
 }
 
+a {
+    text-decoration: none;
+}
+
 .section-title {
-    font-weight: 400;
+    font-weight: 600;
     padding-bottom: 20px;
+}
+
+li {
+    list-style: none;
 }
 
 nav {
@@ -46,7 +54,6 @@ nav {
 }
 
 .nav-options {
-    list-style: none;
     overflow: hidden;
     padding-right: 26px;
 }
@@ -55,7 +62,6 @@ nav {
     display: block;
     color: inherit;
     padding: 24px 26px;
-    text-decoration: none;
     float: right;
 }
 
@@ -114,13 +120,30 @@ nav {
     color: inherit;
 }
 
+.project h2 {
+    color: #61c9a8
+}
+
+.project h2,
+.project h3 {
+    font-weight: 400;
+}
+
 .project-expand-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: none;
     border-top: 3px solid white;
     background-color: inherit;
     color: inherit;
     text-align: left;
     padding: 10px 0;
+}
+
+.project-expand-button svg{
+    height: 50px;
+    width: 50px;
 }
 
 .project-expand-button-text *,
@@ -131,7 +154,6 @@ nav {
 .project-expandable {
     display: flex;
     flex-direction: column;
-    padding-left: 16px;
     margin-bottom: 10px;
     max-height: 0;
     overflow: hidden;
@@ -142,8 +164,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: left;
-    list-style-type: disc;
     padding-left: 26px;
+}
+
+.project-notes li {
+    list-style: disc outside;
 }
 
 .project-technologies,
@@ -152,17 +177,21 @@ nav {
     gap: 8px;
 }
 
-.project-technologies li, 
-.project-links li {
-    list-style: none;
+.project-technologies li {
     border: none;
     background-color: #61c9a8;
     color: black;
-    border-radius: 50px;
+    border-radius: 12px;
     padding: 2px 16px;
 }
 
-.project-links a {
-    color: black;
-    text-decoration: none;
+.project-links svg {
+    height: 50px;
+    width: 50px;
+    padding-top: 8px;
+}
+
+.project-links li {
+    height: 50px;
+    width: 50px;
 }
